@@ -1,5 +1,7 @@
 class Tree {
   
+  boolean snowing;
+  
   int number = 0;
   ArrayList<Branch> branches = new ArrayList<Branch>();
   ArrayList<Leaf> leaves = new ArrayList<Leaf>();
@@ -109,7 +111,7 @@ class Tree {
   void show() {
     for (Leaf l : leaves) {
       l.show();
-    }    
+    }
     
     // creates each Branch
     //for (Branch b : branches) {
